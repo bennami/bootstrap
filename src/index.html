@@ -8,96 +8,123 @@
 
 
 </head>
-<body class="bg-info">
-<header>
-    <nav>
-        <ul class="list-unstyled list-inline">
-            <li > <a href="#">link1</a></li>
-            <li> <a href="#">link3 </a></li>
-            <li> <a href="#">link3</a></li>
-        </ul>
+<body class="bg-info d-flex">
 
-    </nav>
-</header>
-<main>
+<div class=" pos-f-t">
+    <div class=" collapse navbar-light" >
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
 
-    <div class="container-fluid" >
-
-         <div class=" container-fluid row">
-
-             <div class="bg-light col-sm m-3 rounded text-center">
-            <img src="../img/icon1.svg" alt="icon1">
-            <h3 class="text-center"> A title</h3>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. Consequuntur dicta error facere impedit in libero magni quasi. Aperiam, consequatur, nihil?</p>
-
-                <button type="button" class="btn btn-outline-primary">Learn more</button>
+        <div class=" container-fluid col-sm  bg-dark d-none d-sm-block">
+            <nav class=" navbar-light">
+                <a class="nav-item nav-link" href="#">link1</a>
+                <a class="nav-item nav-link" href="#">link2</a>
+                <a class="nav-item nav-link" href="#">link3</a>
+            </nav>
 
         </div>
-             <div class="  bg-light col-sm m-3 rounded">
+
+    </div>
+
+</div>
+
+<div class="pos-f-t d-none d-sm-block bg-dark">
+    <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div class="" id="navbarToggleExternalContent  ">
+        <div class="bg-dark p-4">
+            <a class="nav-item nav-link" href="#">link1</a>
+            <a class="nav-item nav-link" href="#">link2</a>
+            <a class="nav-item nav-link" href="#">link3</a>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<main class="d-flex">
+
+
+
+<div class="container">
+    <div class="container-fluid row" >
+
+             <div class="card bg-light  col-sm m-3 text-center ">
+            <img class=" align-items-center" src="../img/icon1.svg" alt="icon1">
+            <h3 class=""> A title</h3>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. </p>
+
+                <button type="button" class="text-uppercase btn btn-outline-primary m-3 rounded-pill border-0" >Learn more</button>
+
+        </div>
+             <div class="card bg-light col-sm m-3 text-center">
                  <img src="../img/icon2.svg" alt="icon2">
                  <h3 class="text-center"> A title</h3>
-                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. Consequuntur dicta error facere impedit in libero magni quasi. Aperiam, consequatur, nihil?</p>
+                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero.</p>
 
-                 <button type="button" class="btn btn-outline-primary">Learn more</button>
+                 <button type="button" class=" text-uppercase btn btn-outline-primary m-3 rounded-pill border-0">Learn more</button>
 
              </div>
-             <div class="  bg-light col-sm m-3 rounded">
+             <div class="card bg-light  col-sm m-3 text-center">
                  <img src="../img/icon3.svg" alt="icon3">
                  <h3 class="text-center"> A title</h3>
-                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. Consequuntur dicta error facere impedit in libero magni quasi. Aperiam, consequatur, nihil?</p>
+                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. </p>
 
-                 <button type="button" class="btn btn-outline-primary">Learn more</button>
+                 <button type="button" class=" text-uppercase btn btn-outline-primary m-3 rounded-pill border-0">Learn more</button>
              </div>
-             <div class="  bg-light col-sm m-3 rounded">
+             <div class="card bg-light  col-sm m-3 text-center">
                  <img src="../img/icon4.svg" alt="icon4">
                  <h3 class="text-center"> A title</h3>
-                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. Consequuntur dicta error facere impedit in libero magni quasi. Aperiam, consequatur, nihil?</p>
+                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. </p>
 
-                 <button type="button" class="btn btn-outline-primary">Learn more</button>
+                 <button type="button" class=" text-uppercase btn btn-outline-primary m-3 rounded-pill border-0">Learn more</button>
 
              </div>
+    </div>
 
-
-         </div>
-
-
-        <div class="container-fluid row">
-
-            <div class="  bg-light col-sm m-3 rounded">
+    <div class=" container-fluid row">
+            <div class="card  bg-light  col-sm m-3  text-center">
                 <img src="../img/icon5.svg" alt="icon5">
                 <h3 class="text-center"> A title</h3>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. Consequuntur dicta error facere impedit in libero magni quasi. Aperiam, consequatur, nihil?</p>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. </p>
 
-                <button type="button" class="btn btn-outline-primary">Learn more</button>
+                <button type="button" class=" hoverable text-uppercase btn btn-outline-primary m-3 rounded-pill border-0">Learn more</button>
 
             </div>
-            <div class="  bg-light col-sm m-3 rounded">
+            <div class="card  bg-light  col-sm m-3  text-center">
                 <img src="../img/icon6.svg" alt="icon6">
                 <h3 class="text-center"> A title</h3>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. Consequuntur dicta error facere impedit in libero magni quasi. Aperiam, consequatur, nihil?</p>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero.</p>
 
-                <button type="button" class="btn btn-outline-primary">Learn more</button>
-
+                <button type="button" class=" text-uppercase btn btn-outline-primary m-3 rounded-pill border-0">Learn more</button>
             </div>
-            <div class="  bg-light col-sm m-3 rounded">
+            <div class="card bg-light  col-sm m-3 text-center">
                 <img src="../img/icon3.svg" alt="icon3">
                 <h3 class="text-center"> A title</h3>
                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. Consequuntur dicta error facere impedit in libero magni quasi. Aperiam, consequatur, nihil?</p>
 
-                <button type="button" class="btn btn-outline-primary">Learn more</button>
+                <button type="button" class=" text-uppercase btn btn-outline-primary m-3 rounded-pill border-0">Learn more</button>
 
             </div>
-            <div class="  bg-light col-sm m-3 rounded">
+            <div class="card  bg-light col-sm m-3 text-center">
                 <img src="../img/icon4.svg" alt="icon4">
                 <h3 class="text-center"> A title</h3>
                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi eaque libero nesciunt quam quod reprehenderit saepe vero. Consequuntur dicta error facere impedit in libero magni quasi. Aperiam, consequatur, nihil?</p>
 
-                <button type="button" class="btn btn-outline-primary">Learn more</button>
+                <button type="button" class="text-uppercase btn btn-outline-primary m-3 rounded-pill border-0">Learn more</button>
 
             </div>
 
-
-        </div>
+     </div>
 
     </div>
 
@@ -105,5 +132,9 @@
 <footer>
 
 </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>
